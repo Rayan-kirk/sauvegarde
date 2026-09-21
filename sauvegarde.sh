@@ -22,7 +22,7 @@ fi
 PROJET="$(basename "$SOURCE")"
 PARENT="$(dirname "$SOURCE")"
 
-DESTDIR="$HOME/Sauvegardes"
+DESTDIR="$HOME/modification"
 mkdir -p "$DESTDIR"
 
 HORODATAGE="$(date +%Y%m%d_%H%M%S)"
